@@ -48,7 +48,8 @@ function checkfunc(){
         this.parentElement.style["background-color"] = "green";
         this.parentElement.style["text-decoration"]= "line-through";
     } else {
-        this.parentElement.style["background-color"] = "green";
+        this.parentElement.style["background-color"] = "white";
+        this.parentElement.style["text-decoration"]= "none";
     }
 }
 
